@@ -1,6 +1,6 @@
 ---
 # vars file for mysql
-root_mysql_password: Secret
-wp_mysql_db: wordpress
-wp_mysql_user: wordpress
-wp_mysql_password: $upp3rP4$$
+root_mysql_password: Sumao58001994@
+wp_mysql_db: cdadv
+wp_mysql_user: cdadv_user
+wp_mysql_password: C0l3g10D@rbtros

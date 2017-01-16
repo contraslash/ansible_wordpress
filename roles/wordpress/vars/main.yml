@@ -1,2 +1,7 @@
 ---
 # vars file for wordpress
+wp_mysql_db: cdadv
+wp_mysql_user: cdadv_user
+wp_mysql_password: C0l3g10D@rbtros
+wp_mysql_host: db.contraslash.com
+wordpress_site_name: colegiodearbitrosdelvalle.contraslash.com

@@ -1,5 +1,5 @@
-[webserver]
+[webservers]
 loki
 
-[dbserver]
-loki
+[dbservers]
+athena

@@ -1,9 +1,9 @@
-- hosts: dbserver
+- hosts: dbservers
 
   roles:
     - mysql
 
-- hosts: webserver
+- hosts: webservers
 
   roles:
     - apache2
