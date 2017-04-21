@@ -1,0 +1,5 @@
+---
+# vars file for swarm
+domain: tecnoinnova2017.com
+traefik_network: traefik-network
+domain_name: tecnoinnova2017

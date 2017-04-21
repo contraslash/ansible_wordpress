@@ -1,11 +1,13 @@
 - hosts: dbservers
 
   roles:
-    - mysql
+    # - mysql
 
 - hosts: webservers
 
   roles:
-    - apache2
-    - php
-    - wordpress
+    # - apache2
+    # - php
+    # - wordpress
+    # - apache-virtualhost
+    - swarm

@@ -1,5 +1,5 @@
 [webservers]
-loki
+linode1
 
 [dbservers]
-athena
+linode_db

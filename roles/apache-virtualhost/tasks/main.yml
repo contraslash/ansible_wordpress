@@ -1,0 +1,9 @@
+- name: Create Virtualhost
+  become: yes
+  template: src=wordpress.conf dest="/etc/apache2/sites-available/{{wordpress_site_name}}.conf"
+
+
+- name: Enable Site
+  command: "a2ensite {{wordpress_site_name}}"
+  notify:
+    - restart apache
