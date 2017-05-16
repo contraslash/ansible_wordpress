@@ -8,8 +8,10 @@ Be sure to modify `host` file to target the correct IP or server name of your se
 
 To use execute:
 ```
-ansible-playbook -u user_in_apachegroup_group -k -i hosts playbook.yml
+ansible-playbook -u deploy_user -k -i hosts playbook.yml
 ```
+
+Remember that deploy_user must exists in all machines defined in `host` file and must have proper permissions, in dbserver to access to a database with admin privileges and on web server to locate content in the www/html folder
 
 > You can use root as user under you own risk
 
